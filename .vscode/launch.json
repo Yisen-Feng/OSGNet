@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "multi-card",
+            "type": "python",
+            "request": "launch",
+            // "program": "/feng_yi_sen/pro/anaconda3/envs/GrounNLQ/lib/python3.9/site-packages/torch/distributed/run.py",
+            "program": "/root/miniconda3/envs/OSGNet/lib/python3.10/site-packages/torch/distributed/run.py",
+
+            "console": "integratedTerminal",
+            "args": ["--standalone" ,"--nproc_per_node=2",  "train.py", 
+                    "configs/tacos/tacos_c3d_glove_weight1_5e-5.yaml" ,
+                    "--output=scratch_1gpu_1e-4_debug","--mode=debug","--resume=False"
+                ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1"
+            },
+            "justMyCode": false
+        },
+
+        
+    ]
+}
