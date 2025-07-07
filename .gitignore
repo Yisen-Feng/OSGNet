@@ -12,10 +12,14 @@ libs/utils/build/temp.linux-x86_64-cpython-39/build.ninja
 libs/utils/build/temp.linux-x86_64-cpython-39/csrc/nms_cpu.o
 ego4d_data/narrations/format_unique_pretrain_data_v2.jsonl
 ego4d_data_narration/format_unique_pretrain_data.jsonl
+ego4d_data/ego4d_nlq_v2_templates
 video
+eval
+ego4d_nlq_train_val_v2_label_lemma.jsonl
 *.whl
 ego4d_nlq_narration_v2_lemma_question.jsonl
 ego4d_narration_v2_merge.jsonl
+*.ipynb
 .vector_cache
 src/mmtrack
 # Byte-compiled / optimized / DLL files
