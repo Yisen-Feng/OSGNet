@@ -16,6 +16,7 @@ This repo supports data pre-processing, training and evaluation of the Ego4D-NLQ
 
 ### Prepare-offline-data
 * Required Feature: text feature, video feature, lavila caption(need to unzip), object feature
+* Pretrained Weight for Finetue(train with NaQ):  [pretrained model](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a)
 ## Ego4D-NLQ
 ### Feature Download
 * Video Feature & Text Feature: GroundNLQ leverage the extracted egocentric InterVideo and EgoVLP features and CLIP textual token features, please refer to [GroundNLQ](https://github.com/houzhijian/GroundNLQ).
