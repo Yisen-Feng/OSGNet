@@ -809,6 +809,9 @@ def valid_one_epoch_nlq_singlegpu(
         # with open(output_file, "wb") as f:
         save_result(results, output_file[0],evaluator.dataset)
         save_result(results_noscore, output_file[1],evaluator.dataset)
+        performance, score_str = evaluator.evaluate(results, verbose=True)
+        score_str = evaluator.display_results(performance)
+        print(score_str, flush=True)
         return results
     # assert evaluator.dataset == "ego4d"
     performance, score_str = evaluator.evaluate(results, verbose=True)

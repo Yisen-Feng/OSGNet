@@ -17,13 +17,22 @@ This repo supports data pre-processing, training and evaluation of the Ego4D-NLQ
 ### Prepare-offline-data
 * Required Feature: text feature, video feature, lavila caption(need to unzip), object feature
 * Pretrained Weight for Finetue(train with NaQ):  [pretrained model](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a)
+## Pretrain-[NaQ](https://github.com/srama2512/NaQ)
+### Text Feature
+Download features from [this Baidu Netdisk link](https://pan.baidu.com/s/1QXX-LMhUDSoky2Czh18bqA?pwd=tba6)
+* narration feature: narration_clip_token_features
+* narration jsonl: format_unique_pretrain_data_v2.jsonl
+### Video Feature
+The features are the same as the NLQ below.
+* internvideo : em_egovlp+internvideo_visual_features_1.87fps
+### Config
+4 cards, total batch is 16.
+* configs/Ego4D-NLQ/v2/ego4d_nlq_v2_multitask_pretrain_2e-4.yaml
 ## Ego4D-NLQ
 ### Feature Download
 * Video Feature & Text Feature: GroundNLQ leverage the extracted egocentric InterVideo and EgoVLP features and CLIP textual token features, please refer to [GroundNLQ](https://github.com/houzhijian/GroundNLQ).
 * Download [Lavila Caption](https://pan.baidu.com/s/1ZeIOgf292gZwKKvYdZKqPA?pwd=p7qr), Object Feature([anno](https://pan.baidu.com/s/1WaRcaaWCSUZ_pFuKCRDC0w?pwd=kr9u),[classname](https://pan.baidu.com/s/186-WJ-mlRybTH8dmlrKzmA?pwd=5k2i)).
 ### Text Feature
-* narration feature: narration_clip_token_features
-* narration jsonl: format_unique_pretrain_data_v2.jsonl
 * NLQ v2 feature: nlq_v2_clip_token_features
 * egovideo: egovideo_token_lmdb
 ### Video Feature
