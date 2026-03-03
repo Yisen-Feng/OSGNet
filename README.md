@@ -31,8 +31,9 @@ The features are the same as the NLQ below.
 ## Ego4D-NLQ
 ### Feature Download
 * Video Feature & Text Feature: GroundNLQ leverage the extracted egocentric InterVideo and EgoVLP features and CLIP textual token features, please refer to [GroundNLQ](https://github.com/houzhijian/GroundNLQ).
-* Download [Lavila Caption](https://pan.baidu.com/s/1ZeIOgf292gZwKKvYdZKqPA?pwd=p7qr), Object Feature([anno](https://pan.baidu.com/s/1WaRcaaWCSUZ_pFuKCRDC0w?pwd=kr9u),[classname](https://pan.baidu.com/s/186-WJ-mlRybTH8dmlrKzmA?pwd=5k2i)).
+* Download [Lavila Caption](https://pan.baidu.com/s/1ZeIOgf292gZwKKvYdZKqPA?pwd=p7qr), Object Feature([anno](https://pan.baidu.com/s/1WaRcaaWCSUZ_pFuKCRDC0w?pwd=kr9u),[classname](https://pan.baidu.com/s/186-WJ-mlRybTH8dmlrKzmA?pwd=5k2i)), Video Feature([egovlp](https://pan.baidu.com/s/1cj3Egv3v4mVOi2nhfFrgkQ?pwd=4qnb)), Text Feature([NLQ v1 feature](https://pan.baidu.com/s/1VTdgU2K_rxy0WWHMT_6MDw?pwd=h7gb)).
 ### Text Feature
+* NLQ v1 feature: nlq_v1_clip_token_features
 * NLQ v2 feature: nlq_v2_clip_token_features
 * egovideo: egovideo_token_lmdb
 ### Video Feature
