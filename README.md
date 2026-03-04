@@ -16,7 +16,7 @@ This repo supports data pre-processing, training and evaluation of the Ego4D-NLQ
 
 ### Prepare-offline-data
 * Required Feature: text feature, video feature, lavila caption(need to unzip), object feature
-* Pretrained Weight for Finetue(train with NaQ):  [pretrained model](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a)
+* Pretrained Weight for Finetue(train with NaQ):  [InternVideo](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a),[EgoVLP](https://pan.baidu.com/s/1pj2BzBC7hs-Lv31iP1Lk7A?pwd=wmcc)
 ## Pretrain-[NaQ](https://github.com/srama2512/NaQ)
 ### Text Feature
 Download features from [this Baidu Netdisk link](https://pan.baidu.com/s/1QXX-LMhUDSoky2Czh18bqA?pwd=tba6)
