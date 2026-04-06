@@ -4,10 +4,11 @@
 
 ## Authors
 
-**Yisen Feng**<sup>1</sup>, **Haoyu Zhang**<sup>1,2</sup>, **Meng Liu**<sup>3</sup>*, **Weili Guan**<sup>1</sup>, **Liqiang Nie**<sup>1</sup>*
+**Yisen Feng**<sup>1</sup>, **Haoyu Zhang**<sup>1,2</sup>, **Meng Liu**<sup>3</sup>\*, **Weili Guan**<sup>1</sup>, **Liqiang Nie**<sup>1</sup>\*
 
 <sup>1</sup> Harbin Institute of Technology (Shenzhen) <sup>2</sup> Pengcheng Laboratory <sup>3</sup> Shandong Jianzhu University
-* Corresponding author
+
+\* represents corresponding author
 
 ## Links
 
