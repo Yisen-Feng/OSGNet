@@ -15,7 +15,7 @@
 * **Paper**: [Object-Shot Enhanced Grounding Network for Egocentric Video](https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Object-Shot_Enhanced_Grounding_Network_for_Egocentric_Video_CVPR_2025_paper.html)
 * **Technical Report**: [OSGNet@ Ego4D Episodic Memory Challenge 2025](https://arxiv.org/abs/2506.03710)
 * **Code Repository**: [iLearn-Lab/CVPR25-OSGNet](https://github.com/iLearn-Lab/CVPR25-OSGNet)
-
+* **Hugging Face**: [iLearn-Lab/CVPR25-OSGNet](https://huggingface.co/iLearn-Lab/CVPR25-OSGNet)
 ---
 
 ## Table of Contents
@@ -102,34 +102,39 @@ Required resources include:
 * lavila caption (need to unzip)
 * object feature
 
-### 3. Pretrained weights for finetuning (train with NaQ)
 
-* [InternVideo](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a)
-* [EgoVLP](https://pan.baidu.com/s/1pj2BzBC7hs-Lv31iP1Lk7A?pwd=wmcc)
 
 ---
 
 ## Checkpoints / Models
 
+Download from [huggingface](https://huggingface.co/iLearn-Lab/CVPR25-OSGNet) or from baidu netdisk below.
+
+### Pretrained weights for finetuning (train with NaQ)
+
+* [InternVideo](https://pan.baidu.com/s/1veKtGHzlKf-5kpEPiyNtsQ?pwd=id7a)
+* [EgoVLP](https://pan.baidu.com/s/1pj2BzBC7hs-Lv31iP1Lk7A?pwd=wmcc)
+
 ### Ego4D-NLQ
 
-| Feature     | NLQ v1                                                          | NLQ v2                                                          |
-| ----------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
-| InternVideo | [173](https://pan.baidu.com/s/1rd49TkEw7ZOhNQe7Y0LD0g?pwd=bqp2) | [144](https://pan.baidu.com/s/15MeSuTg1I5sBMH-YKumbsw?pwd=a9fc) |
-| EgoVideo    | -                                                               | 228                                                             |
+| Feature     | Setting   |  NLQ v1                                                          | NLQ v2                                                          |
+| ----------- | -----------|---------------------------------------------------- | --------------------------------------------------------------- |
+| InternVideo | Finetuned| | [144](https://pan.baidu.com/s/15MeSuTg1I5sBMH-YKumbsw?pwd=a9fc) |
+|EgoVLP| Finetuned|[173](https://pan.baidu.com/s/1rd49TkEw7ZOhNQe7Y0LD0g?pwd=bqp2) | |
+
 
 ### GoalStep
 
-| GoalStep                                                        |
-| --------------------------------------------------------------- |
-| [135](https://pan.baidu.com/s/1wT17nzokUk0FL-RFk_gFIA?pwd=jg7y) |
+|Feature     | Setting   | GoalStep                                                        |
+| ------------|------------|--------------------------------------- |
+| InternVideo | Finetuned| [135](https://pan.baidu.com/s/1wT17nzokUk0FL-RFk_gFIA?pwd=jg7y) |
 
 ### TACoS
 
-| Setting   | Checkpoint                                                      |
-| --------- | --------------------------------------------------------------- |
-| Scratch   | [150](https://pan.baidu.com/s/1Lf-mSB8f8rDE_rtCZk4uDQ?pwd=a59n) |
-| Finetuned | [131](https://pan.baidu.com/s/1k8tZdlZvmKmCT2sjOT-8jQ?pwd=3cfh) |
+|Feature     | Setting   | Checkpoint                                                      |
+|  --------- |--------- | --------------------------------------------------------------- |
+|C3D        | Scratch   | [150](https://pan.baidu.com/s/1Lf-mSB8f8rDE_rtCZk4uDQ?pwd=a59n) |
+|InternVideo| Finetuned | [131](https://pan.baidu.com/s/1k8tZdlZvmKmCT2sjOT-8jQ?pwd=3cfh) |
 
 ---
 
@@ -162,7 +167,8 @@ The features are the same as the NLQ below.
 ### Feature Download
 
 * Video Feature & Text Feature: GroundNLQ leverages the extracted egocentric InterVideo and EgoVLP features and CLIP textual token features. Please refer to [GroundNLQ](https://github.com/houzhijian/GroundNLQ).
-* Download:
+* Download from [huggingface](https://huggingface.co/datasets/iLearn-Lab/CVPR25-OSGNet-Ego4D-NLQ)
+* Download from baidu netdisk:
 
   * [Lavila Caption](https://pan.baidu.com/s/1ZeIOgf292gZwKKvYdZKqPA?pwd=p7qr)
   * Object Feature ([anno](https://pan.baidu.com/s/1WaRcaaWCSUZ_pFuKCRDC0w?pwd=kr9u), [classname](https://pan.baidu.com/s/186-WJ-mlRybTH8dmlrKzmA?pwd=5k2i))
@@ -208,13 +214,12 @@ The features are the same as the NLQ below.
 ## GoalStep
 
 ### Feature Download
-
-Download:
-
-* [Text Feature](https://pan.baidu.com/s/1CwZhtSA3fzXA2brYcMjWCg?pwd=6991)
-* Video Feature ([clip](https://pan.baidu.com/s/1HOywlNFjeaGVWDnCdaLxUg?pwd=iig5), [not clip](https://pan.baidu.com/s/1Gna38KmKZdGl1uqOaEGGlw?pwd=iig5))
-* [lavila caption](https://pan.baidu.com/s/1syYuZf7H62TEnjkbw-uEmA?pwd=42hk)
-* Object Feature ([clip](https://pan.baidu.com/s/1ZnReOQhQ5-Zw0W1pJDhkHQ?pwd=xd5s), [not clip](https://pan.baidu.com/s/19BlDvo3AY1IfeO2DDmb65g?pwd=x4ha))
+* Download from [huggingface](https://huggingface.co/datasets/iLearn-Lab/CVPR25-OSGNet-Ego4D-GoalStep)
+* Download from baidu netdisk:
+  * [Text Feature](https://pan.baidu.com/s/1CwZhtSA3fzXA2brYcMjWCg?pwd=6991)
+  * Video Feature ([clip](https://pan.baidu.com/s/1HOywlNFjeaGVWDnCdaLxUg?pwd=iig5), [not clip](https://pan.baidu.com/s/1Gna38KmKZdGl1uqOaEGGlw?pwd=iig5))
+  * [lavila caption](https://pan.baidu.com/s/1syYuZf7H62TEnjkbw-uEmA?pwd=42hk)
+  * Object Feature ([clip](https://pan.baidu.com/s/1ZnReOQhQ5-Zw0W1pJDhkHQ?pwd=xd5s), [not clip](https://pan.baidu.com/s/19BlDvo3AY1IfeO2DDmb65g?pwd=x4ha))
 
 ### Text Feature
 
@@ -243,8 +248,8 @@ Download:
 ## TACoS
 
 ### Feature Download
-
-Download features from [this Baidu Netdisk link](https://pan.baidu.com/s/1Zemfogt30ACGuOAZsmvx1A?pwd=arrt).
+* Download from [huggingface](https://huggingface.co/datasets/iLearn-Lab/CVPR25-OSGNet-TACoS)
+* Download features from [this Baidu Netdisk link](https://pan.baidu.com/s/1Zemfogt30ACGuOAZsmvx1A?pwd=arrt).
 
 ### Text Feature
 
